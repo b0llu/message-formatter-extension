@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Message Formatter",
+  "version": "1.0",
+  "description": "A simple extension to format unstructured messages.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": []
+}

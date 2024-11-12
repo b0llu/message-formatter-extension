@@ -107,7 +107,7 @@ const getModeInstruction = () => {
   return (
     <div style={{ display:'flex', alignItems: 'center', justifyContent: 'start', flexDirection: 'column', height: '100%', width: '100%' }}>
       <h2>Message Formatter</h2>
-      <form style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}} onSubmit={handleSubmit}>
+      <form style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginBottom: '20px'}} onSubmit={handleSubmit}>
         <textarea
           value={inputMessage}
           onChange={handleInputChange}
